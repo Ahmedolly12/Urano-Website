@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background-color: #0B162B;
+    color:#ffffff;
+    font-family:'Montserrat', sans-serif;
+    display: flex;
+    overflow: hidden;
+}
+
+.image img{
+    max-width: 110%;
+    height: 100%;  
+}
+
+ a, h3{
+    padding-left: 4em;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    margin-top: 5em;
+    width: 80%;
+    padding-left: 2.5em;
+    font-size: 45px;
+    font-weight: 700; 
+}
+
+.revolution {
+    font-size: 18px;
+    line-height: 50px;
+    padding-left: 6.5em;
+    padding-right: 1em;
+    width: 70%;
+    align-items: center;
+}
+
+.porta {
+    line-height: 30px;
+    margin: 1em;
+}
+
+.email{
+    padding-left: 7em;
+    margin-top: 1em;
+}
+
+ input[type="email"]{
+    padding: 1em;
+    background-color:#5558DB;
+    border: none;
+    width: 50%;
+    padding-left: 2em;
+    font-size: 15px;
+    font-family:'Montserrat', sans-serif; 
+    outline: none;
+    border: none;
+ }
+
+input[type="submit"]{
+    background-color:#5558DB;
+    padding: 1em;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    width: 30%;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+ }
+
+::placeholder{
+    color: #0B162B;  
+ }
+
+ .small-paragraph{
+    color:#ffffff;
+    opacity:50%;
+    padding-left:7em;
+    margin-top: .5em; 
+ }
+
+ .shape{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5.5em;
+    font-size:18px;
+    padding-bottom: 1.7em;
+    padding-left: 5em;
+    font-weight: 700; 
+ }
+
+ .more{
+    display: inline;
+    padding-left: 1em;
+ }
+ ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    text-decoration: none;
+    padding:0;
+     z-index: -1;
+     padding-right:5em;
+ }
+
+ li a{
+   list-style-type: none;
+    text-decoration: none;
+    color: white;
+    float: right;
+    padding: 2em;
+    position: absolute;
+    font-size: 15px;
+    font-weight: 500;
+ }
+
+ .signup {
+    background-color:#5558DB;
+    border: none;
+    outline: none;
+    color: white;
+    font-weight: 500;
+    padding: 5px;
+    cursor:pointer;
+    text-align: center;
+    width: 5em;
+ }
+
+ .logo-container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: #ffffff;
+ }
+
+ .lorem-ipsum{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 3em;
+    padding-right: 3em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 6em;
+    color: black;
+    background-color: #ffffff;
+ }
+
+ .integer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7em;
+    padding-left: 5em;
+    background-color: #F8F8F8;
+    padding-top: 5em;
+ }
+
+.integer-1{
+    padding-left: 3em;
+    width: 75%;
+    margin: 5em;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+}
+
+ .vitae {
+    margin: 1em;
+    font-size: 25px;
+    width: 50%;
+}
+
+.get{
+    margin-top: 3em;
+}
+
+.nun{
+    padding-left: 1.5em;
+    width: 100%;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-top: 1em;
+}
+
+.map-container {
+    display: flex;
+    padding-left: 1em;
+    padding-right: 3em;
+    margin-top: 3em;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.integer-2{
+    padding-left: 1em;
+    width: 60%;
+    margin: 1em;
+    line-height: 30px;
+}
+
+.price-container{
+    background-color:#F8F8F8;
+    text-align: center;
+    padding-top: 5em;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.let {
+    font-size: 20px;
+}
+
+.nun-2  {
+    font-size: 12px;
+    margin: 1em;
+}
+
+.fee-container {
+display: flex;
+justify-content: space-around;
+font-family:'Montserrat', sans-serif;
+padding-left: 5em;
+padding-right: 5em;
+}
+
+.fee-1 {
+width: 100%;
+height: 100%;
+font-family:'Montserrat', sans-serif;
+margin: 5em;
+line-height: 20px;
+padding-bottom: 1em;
+box-shadow:  1px 2px 2px 1px #888888;
+}
+
+.fee-2{
+    width: 100%;
+    height: 100%;
+    font-family:'Montserrat', sans-serif;
+    margin: 5em;
+    line-height: 20px;
+    padding-bottom: 1em;
+    box-shadow:  1px 2px 2px 1px #888888;
+}
+
+.dollar{
+    color:#0B162B;
+    font-size: 12px;
+    padding-top: 3em;
+}
+
+.save{
+    background: #5558DB;
+    border: none;
+    outline: none;
+    color:white;
+    width: 6em;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 2px;
+    opacity:0.4;
+    text-align: center;
+    width: 8em;
+    padding:5px;
+     margin-left: 1em;
+}
+
+.doll {
+    color: black;
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 25px;
+    margin-top: 1em;
+}
+
+.free {
+font-size: 15px;
+margin-top: 30px;
+color: #0B162B;
+font-weight: 500;
+}
+
+.list li {
+    margin-top: 1em;
+    list-style-image: url(./assets/list.png);
+    font-size: 18px; 
+    color: rgba(0, 0, 0, 0.5);  
+}
+
+.nun-3{
+    padding-bottom: 5em;
+    font-size: 15px;
+}
+
+footer {
+background-color: #0B162B;
+}
+
+.footer-container {
+display: flex;
+justify-content: space-around;
+align-items:center;
+ padding-top:4em; 
+ padding-bottom: 1em;
+ padding-left: 5em;
+ padding-right: 2em;
+}
+
+ .get-started{
+    color: white;
+    font-family:'Montserrat', sans-serif;;
+ }
+
+.below {
+font-size: 15px;
+opacity: 0.4;
+margin-top: 10px;
+ }
+
+ .email-2{
+    width: 40%;
+ }
+
+ hr {
+  border: 1px solid white;
+  width:83%;
+  margin-left: 8em;
+ }
+
+ .footer-content{
+    color: white;
+    list-style-type: none;
+    font-family:'Montserrat', sans-serif; 
+    display: flex;
+    justify-content: space-around;
+    font-size:12px;
+    line-height: 20px;
+    padding-left: 5em;
+    padding-top: 2em;
+    padding-bottom: 5em;
+ }
+
+ .features li{
+    opacity: 0.4;
+ }
+
+ .solution li {
+    opacity: 0.4;
+ }
+
+ .Resources li{
+    opacity: 0.4;
+ }
+
+ .Company li {
+    opacity: 0.4;
+ }
+ 
+ h5{
+    font-size: 20px;
+ }
+
+ .icons {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+ }
+
+ .fa-facebook{
+    background: #5558DB;
+    padding: 5px;
+    border-radius: 50px;
+ }
+ 
+ .fa-instagram{
+    background: #5558DB;
+    padding: 5px;
+    border-radius: 50px;
+ }
+
+.fa-twitter{
+    background: #5558DB;
+    padding: 5px;
+    border-radius: 50px;
+ }
+ .fa-google{
+    background: #5558DB;
+    padding: 5px;
+    border-radius: 50px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ 
